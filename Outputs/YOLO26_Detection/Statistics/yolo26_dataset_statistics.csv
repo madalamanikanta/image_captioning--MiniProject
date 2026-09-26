@@ -1,0 +1,2 @@
+model,total_images,images_with_detection,zero_detection_images,detection_coverage_percent,total_detection_records,unique_object_classes,mean_confidence,median_confidence,mean_objects_per_image,median_objects_per_image,max_objects_per_image
+YOLO26s,39874,39795,79,99.80187590911372,238969,80,0.6326702400926064,0.6591706275939941,5.9931032753172495,4.0,53

@@ -1,0 +1,5 @@
+category,image_count
+Detected by all three models,39874
+Only YOLOv5s detected,0
+Only YOLO26s detected,0
+Only RT-DETR-X detected,0
