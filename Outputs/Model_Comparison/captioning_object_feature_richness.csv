@@ -1,4 +1,0 @@
-model,average_unique_objects_per_image,median_unique_objects_per_image,maximum_unique_objects_per_image,images_with_no_object_tokens,total_object_tokens
-YOLOv5s,2.2244068816772833,2.0,12,241,236507
-YOLO26s,2.2206450318503284,2.0,12,79,238969
-RT-DETR-X,3.239529517981642,3.0,18,6,496797

@@ -1,4 +1,0 @@
-Model,Total Images,Images With Detections,Zero Detection Images,Detection Coverage (%),Zero Detection Rate (%),Total Detection Records,Average Detections Per Image,Average Confidence,Median Confidence,Unique Object Classes
-YOLOv5s,39874,39633,241,99.3956,0.6044,236507,5.9314,0.5923,0.5968,79
-YOLO26s,39874,39795,79,99.8019,0.1981,238969,5.9931,0.6327,0.6592,80
-RT-DETR-X,39874,39868,6,99.985,0.015,496797,12.4592,0.5215,0.4231,80
