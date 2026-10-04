@@ -1,0 +1,81 @@
+object_name,YOLOv5s,YOLO26s,RT-DETR-X
+airplane,True,True,True
+apple,True,True,True
+backpack,True,True,True
+banana,True,True,True
+baseball bat,True,True,True
+baseball glove,True,True,True
+bear,True,True,True
+bed,True,True,True
+bench,True,True,True
+bicycle,True,True,True
+bird,True,True,True
+boat,True,True,True
+book,True,True,True
+bottle,True,True,True
+bowl,True,True,True
+broccoli,True,True,True
+bus,True,True,True
+cake,True,True,True
+car,True,True,True
+carrot,True,True,True
+cat,True,True,True
+cell phone,True,True,True
+chair,True,True,True
+clock,True,True,True
+couch,True,True,True
+cow,True,True,True
+cup,True,True,True
+dining table,True,True,True
+dog,True,True,True
+donut,True,True,True
+elephant,True,True,True
+fire hydrant,True,True,True
+fork,True,True,True
+frisbee,True,True,True
+giraffe,True,True,True
+hair drier,False,True,True
+handbag,True,True,True
+horse,True,True,True
+hot dog,True,True,True
+keyboard,True,True,True
+kite,True,True,True
+knife,True,True,True
+laptop,True,True,True
+microwave,True,True,True
+motorcycle,True,True,True
+mouse,True,True,True
+orange,True,True,True
+oven,True,True,True
+parking meter,True,True,True
+person,True,True,True
+pizza,True,True,True
+potted plant,True,True,True
+refrigerator,True,True,True
+remote,True,True,True
+sandwich,True,True,True
+scissors,True,True,True
+sheep,True,True,True
+sink,True,True,True
+skateboard,True,True,True
+skis,True,True,True
+snowboard,True,True,True
+spoon,True,True,True
+sports ball,True,True,True
+stop sign,True,True,True
+suitcase,True,True,True
+surfboard,True,True,True
+teddy bear,True,True,True
+tennis racket,True,True,True
+tie,True,True,True
+toaster,True,True,True
+toilet,True,True,True
+toothbrush,True,True,True
+traffic light,True,True,True
+train,True,True,True
+truck,True,True,True
+tv,True,True,True
+umbrella,True,True,True
+vase,True,True,True
+wine glass,True,True,True
+zebra,True,True,True

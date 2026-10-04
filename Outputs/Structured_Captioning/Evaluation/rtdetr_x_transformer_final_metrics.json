@@ -1,0 +1,75 @@
+{
+  "experiment": "Object-Aware Transformer Image Captioning",
+  "dataset": {
+    "name": "Flickr8K + Flickr30K",
+    "total_images": 39874,
+    "total_captions": 199369,
+    "test_images": 3988,
+    "test_references": 19940,
+    "references_per_image": 5
+  },
+  "detector": {
+    "name": "RT-DETR-X",
+    "confidence_threshold": 0.3,
+    "top_k": 10
+  },
+  "structured_representation": {
+    "object_features": 1,
+    "spatial_features": 9,
+    "confidence_features": 1,
+    "spatial_dimensions": [
+      "xmin",
+      "ymin",
+      "xmax",
+      "ymax",
+      "center_x",
+      "center_y",
+      "box_width",
+      "box_height",
+      "box_area"
+    ]
+  },
+  "caption_model": {
+    "architecture": "Object-Aware Transformer",
+    "d_model": 256,
+    "nhead": 8,
+    "encoder_layers": 3,
+    "decoder_layers": 3,
+    "feedforward": 1024,
+    "dropout": 0.2,
+    "max_caption_length": 32,
+    "parameters": 12347258
+  },
+  "vocabulary": {
+    "caption_vocabulary_size": 12666,
+    "object_vocabulary_size": 82,
+    "minimum_word_frequency": 2,
+    "source": "training_captions_only"
+  },
+  "training": {
+    "best_epoch": 20,
+    "best_validation_loss": 3.61259,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "label_smoothing": 0.1
+  },
+  "evaluation": {
+    "generation": "Greedy decoding",
+    "bleu_implementation": "NLTK",
+    "meteor_implementation": "NLTK + WordNet",
+    "rouge_l_implementation": "Custom LCS-based ROUGE-L",
+    "cider_implementation": "pycocoevalcap",
+    "empty_predictions": 1,
+    "unk_tokens": 17
+  },
+  "metrics": {
+    "BLEU-1": 0.6136735229405946,
+    "BLEU-2": 0.39554540624691825,
+    "BLEU-3": 0.25845855759962394,
+    "BLEU-4": 0.1731173851632979,
+    "METEOR": 0.3889029045797215,
+    "ROUGE-L": 0.4573926522920127
+  },
+  "generated_at": "2026-09-13T09:57:25.311498"
+}

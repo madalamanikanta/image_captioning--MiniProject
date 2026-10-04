@@ -1,0 +1,7 @@
+{
+  "model": "YOLO26s Object-Aware Transformer",
+  "test_images": 3988,
+  "METEOR": 0.353311360050192,
+  "evaluation": "NLTK METEOR with WordNet",
+  "wordnet": true
+}

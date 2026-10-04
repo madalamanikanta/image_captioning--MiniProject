@@ -1,0 +1,4 @@
+model,mean_detections,median_detections,min_detections,max_detections,images_with_1_detection,images_with_2_to_5_detections,images_with_6_to_10_detections,images_with_more_than_10_detections
+YOLOv5s,5.9374028188794705,4.0,1,57,6510,18492,7754,7118
+YOLO26s,5.995084516226112,4.0,1,53,5640,18574,8474,7186
+RT-DETR-X,12.459321863871194,7.0,1,133,3238,13165,7336,16135
