@@ -1,0 +1,8 @@
+{
+  "model": "YOLO26s Object-Aware Transformer",
+  "test_images": 3988,
+  "reference_captions": 19940,
+  "references_per_image": 5,
+  "CIDEr": 0.3366907022012057,
+  "implementation": "pycocoevalcap CIDEr"
+}
